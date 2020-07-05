@@ -8,16 +8,16 @@ public class pokeman {
     public  int defence ;
     public int total ;
 
-    public String getName() {
-        return name;
-    }
-
     public pokeman(String name, int image, int attack, int defence, int total) {
         this.name = name;
         this.image = image;
         this.attack = attack;
         this.defence = defence;
         this.total = total;
+    }
+
+    public String getName() {
+        return name;
     }
 
     public void setName(String name) {
